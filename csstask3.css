@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c40101c5;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.inline-block-element {
+    background-color: #fff; /* Фон карточки */
+    border: 2px solid #ddd; /* Рамка карточки */
+    border-radius: 8px; /* Скругление углов рамки */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень карточки */
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Плавное изменение при наведении */
+}
+
+.inline-block-element:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Усиление тени при наведении */
+}
+
+.inline-block-element img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.inline-block-element h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.inline-block-element p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.buy-button {
+    background-color: #c40101c5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #ff5757;
+}
